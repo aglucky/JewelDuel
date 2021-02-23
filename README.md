@@ -11,10 +11,16 @@ To play Jewel Duel, each player starts by choosing an in-game name for themselve
 The main improvent I made was redesign the game to be played by two players. I persoanlly find the game Bejewled a bit bland so I wanted to try and spice it up by adding a competetive aspect to it. I also decided to allow 5 different types of non special gems in the game instead of three. This was to prevent matches from being to easy to achieve and add an aspect of skill to the game. Other than those, my main 'improvement' was making the game playable.
 
 ## How To Run
-1. Download the [ZIP package](https://github.com/aglucky/JewelDuel/archive/master.zip) and unzip it.
-2. 
+Download the [ZIP package](https://github.com/aglucky/JewelDuel/archive/master.zip) and unzip it.
+
+Method 1: Using the python poetry library
+1. Install the poerty library from the command line using `pip install --user poetry`
  * The game can be run by typing `python ` followed by the file name of the script, e.g. `poetry run python main.py`.
  * If the script is in a different directory from which you are trying to run it, you will need to provide the full path to the script’s file, e.g. `poetry run python /Users/myself/JewelDuel/main.py`.
+
+Method 2: Using a Text editor or IDE
+1. Open the downloaded project folder with any text editor/ide that supports python
+2. Run `main.py`
 
 ## Libraries Used
 

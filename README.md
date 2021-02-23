@@ -1,14 +1,24 @@
 # Jewel Duel
 
 Jewel Duel is a strategic take on the classic game Bejewled that allows two players to 'duel' in an epic, gem-filled Face off. This game is currently
-run in a terminal, with the gems represented as greek letters.
+run in a terminal, with the gems represented as greek letters to give it a STEM theme.
 
 ## Rules
 
 To play Jewel Duel, each player starts by choosing an in-game name for themselves. This name will be used prompt the turn player to move as well 
 as to eventually congratulate the victor of the duel. Then, each player takes turns selecting 2 gems to swap. If a player connects 3 gems in a row, 
-the gems disapear,causing any gems above to fall down and new gems to be spawned at the top of the board. If a player connects 4 gems in a row, 
+the gems disapear, causing any gems above to fall down and new gems to be spawned at the top of the board. If a player connects 4 gems in a row, 
 the same effect will occur with the exception of a special gem to occur. Once a player connects 3 of their special gems together, they will win the duel.
+
+## Improvements on Initial Instructions
+
+The main improvent I made was redesign the game to be played by two players. I persoanlly find the game Bejewled a bit bland so I wanted to try and spice it up by adding a competetive aspect to it. I also decided to allow 5 different types of non special gems in the game instead of three. This was to prevent matches from being to easy to achieve and add an aspect of skill to the game. Other than those, my main 'improvement' was making the game playable.
+
+## How To Run
+1. Download the [ZIP package](https://github.com/adobe-type-tools/python-scripts/archive/master.zip) and unzip it.
+2. 
+ * The game can be run by typing `python ` followed by the file name of the script, e.g. `python JewelDuel.py`.
+ * If the script is in a different directory from which you are trying to run it, you will need to provide the full path to the script’s file, e.g. `python /Users/myself/foldername/JewelDuel.py`.
 
 ## Libraries Used
 

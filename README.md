@@ -1,3 +1,5 @@
+![alt text](https://github.com/aglucky/JewelDuel/blob/master/Jewel.PNG?raw=true)
+
 # Jewel Duel
 
 Jewel Duel is a strategic take on the classic game Bejewled that allows two players to 'duel' in an epic, gem-filled Face off. This game is currently run through a terminal. The 'gems', in the game are represented as greek letters, which give it a bit of a STEM theme.

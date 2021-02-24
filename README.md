@@ -2,14 +2,6 @@
 
 Jewel Duel is a strategic take on the classic game Bejewled that allows two players to 'duel' in an epic, gem-filled Face off. This game is currently run through a terminal. The 'gems', in the game are represented as greek letters, which give it a bit of a STEM theme.
 
-## Rules
-
-To play Jewel Duel, each player starts by choosing an in-game name for themselves. This name will be used prompt the turn player to move as well as to eventually congratulate the victor of the duel. Then, each player takes turns selecting 2 gems to swap. This is done through typing in the alphanumeric coordinate of each gem you would like to swap when prompted. If a player connects 3 gems in a row,  the gems disapear, causing any gems above to fall down and new gems to be spawned at the top of the board. If a player connects 4 gems in a row, the same effect will occur with the addition of a special gem spawning for the turn player. Once a player connects 3 of their special gems together, they will win the duel.
-
-## Improvements on Initial Instructions
-
-The main improvent I made was redesign the game to be played by two players. I persoanlly find the game Bejewled a bit bland so I wanted to try and spice it up by adding a pvp aspect to it. I also decided to allow 5 different types of non special gems into the game instead of three. This was to prevent matches from becoming too comman while also adding an aspect of skill to the game.
-
 ## How To Run
 Download the [ZIP package](https://github.com/aglucky/JewelDuel/archive/master.zip) and unzip it.
 
@@ -21,6 +13,15 @@ Method 1: Using the python poetry library
 Method 2: Using a Text editor or IDE
 1. Open the downloaded project folder with any text editor/ide that supports python
 2. Run `main.py`
+
+## Rules
+
+To play Jewel Duel, each player starts by choosing an in-game name for themselves. This name will be used prompt the turn player to move as well as to eventually congratulate the victor of the duel. Then, each player takes turns selecting 2 gems to swap. This is done through typing in the alphanumeric coordinate of each gem you would like to swap when prompted. If a player connects 3 gems in a row,  the gems disapear, causing any gems above to fall down and new gems to be spawned at the top of the board. If a player connects 4 gems in a row, the same effect will occur with the addition of a special gem spawning for the turn player. Once a player connects 3 of their special gems together, they will win the duel.
+
+## Improvements on Initial Instructions
+
+The main improvent I made was redesign the game to be played by two players. I persoanlly find the game Bejewled a bit bland so I wanted to try and spice it up by adding a pvp aspect to it. I also decided to allow 5 different types of non special gems into the game instead of three. This was to prevent matches from becoming too comman while also adding an aspect of skill to the game.
+
 
 ## Libraries Used
 
